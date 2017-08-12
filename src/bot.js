@@ -44,7 +44,7 @@ bot.on('ready', () => {
     (title => {
         process.title = title;
         process.stdout.write(`\u001B]0;${title}\u0007`);
-    })(`SynSelfBotBot - ${bot.user.username}`);
+    })(`EclipseSelfBotBot - ${bot.user.username}`);
 
     logger.info(stripIndents`SynSelfBot Stats:
         - User: ${bot.user.username}#${bot.user.discriminator} <ID: ${bot.user.id}>
