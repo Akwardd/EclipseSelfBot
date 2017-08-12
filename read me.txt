@@ -22,7 +22,7 @@
 ### Installing
 
 1- Create a folder then Hold + SHIFT + Right Click then open "Command prompt here",
-2- Type in "git clone https://github.com/Akwardd/SynSelfBot" (without the quotes)
+2- Type in "git clone https://github.com/Akwardd/EclipseSelfBot" (without the quotes)
 3- cd into the folder and then type "yarn install" then "npm install"
 (f you dont know how to cd into a folder then just go into the bot folder containing "package.json")
 4- Type "yarn start" to start the bot 
@@ -35,7 +35,7 @@ updated like that, and instead you must do the following commands in your termin
 
 ```bash
 
-# Go to the SynSelfBot folder: 
+# Go to the EclipseSelfBot folder: 
 cd path/to/SynSelfBot
 # Pull in any changes
 
@@ -49,7 +49,7 @@ yarn install
 ### Running
 ```
 
-# Go to the SynSelfBot folder with: 
+# Go to the EclipseSelfBot folder with: 
 cd path/to/SynSelfBot 
 # Start the bot up with: 
 yarn start
