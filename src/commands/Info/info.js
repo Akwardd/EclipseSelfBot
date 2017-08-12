@@ -14,7 +14,7 @@ exports.run = (bot, msg) => {
     const game = bot.user.presence.game || {};
 
     msg.editEmbed(
-        bot.utils.embed('SynSelfBot Stats', '***This message will dissappear in 30 seconds.***', [
+        bot.utils.embed('EclipseSelfBot Stats', '***This message will dissappear in 30 seconds.***', [
             {
                 name: ':outbox_tray: Messages sent',
                 value: bot.managers.stats.get('messages-sent') || 0,
